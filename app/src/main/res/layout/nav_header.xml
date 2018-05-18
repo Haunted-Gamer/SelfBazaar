@@ -10,11 +10,14 @@
 
 
     <ImageView
+        android:id="@+id/UserImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         android:src="@mipmap/ic_launcher_round" />
 
     <TextView
+        android:id="@+id/nameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
@@ -24,6 +27,7 @@
         />
 
     <TextView
+        android:id="@+id/emailText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="galib.dj@gmail.com"
