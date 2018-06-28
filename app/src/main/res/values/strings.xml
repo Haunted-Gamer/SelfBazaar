@@ -2,5 +2,18 @@
     <string name="app_name">SelfBazaar</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="promptText">SelfBazaar</string>
+    <string-array name="Categories">
+        <item>Tools</item>
+        <item>Electronics</item>
+        <item>Laptop and Desktop</item>
+        <item>Health and Beauty</item>
+        <item>Camera</item>
+        <item>Furniture</item>
+        <item>Kids Stuff</item>
+        <item>Books</item>
+        <item>Craft</item>
+        <item>Music</item>
+        <item>Others</item>
+    </string-array>>
 </resources>

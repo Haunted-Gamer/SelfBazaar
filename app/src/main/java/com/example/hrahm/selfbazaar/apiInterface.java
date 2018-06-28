@@ -13,7 +13,8 @@ import retrofit2.http.POST;
 import retrofit2.http.Query;
 
 public interface apiInterface {
-
+    @GET("searchItem.php")
+    Call<List<items>> searchItem (@Query("search") String SEARCH);
 
     @FormUrlEncoded
     @POST("create.php")
@@ -25,4 +26,8 @@ public interface apiInterface {
 
     @GET("login.php")
     Call<List <users>> login (@Query("email") String EMAIL, @Query("pass") String PASS);
+
+    @FormUrlEncoded
+    @POST("additem.php")
+    Call<JsonObject> itemAdd(@Field("name") String Name, @Field("desc") String Desc, @Field("price") String Price, @Field("photo") String Photo, @Field("location") String Location, @Field("category") String Category,@Field("uid") String Uid);
 }

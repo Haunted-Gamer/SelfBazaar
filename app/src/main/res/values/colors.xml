@@ -5,4 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="darkOrange"> #b22608 </color>
     <color name="magenta"> #990033 </color>
+    <color name="Bluish">#00b2ff</color>
+    <color name="Greenish"> #74f1a5 </color>
+    <color name="Yellow"> #fdf001 </color>
+
 </resources>

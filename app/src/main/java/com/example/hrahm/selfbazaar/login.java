@@ -97,7 +97,8 @@ public class login extends AppCompatActivity {
                                 editor.putString("Dob", iterateHelper.getDob());
                                 editor.putString("Phone", iterateHelper.getPhone());
                                 editor.putString("Ipath", iterateHelper.getIpath());
-
+                                editor.putString("Password", iterateHelper.getPass());
+                                editor.putString("Id", iterateHelper.getId());
                                 editor.commit();
 
                                 Intent i = new Intent(getApplicationContext(), MainActivity.class);
